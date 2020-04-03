@@ -60,7 +60,7 @@ time, mark, audio, video {
     margin: 0;
     padding: 0;
     border: 0;
-    font-size: 104%;
+    font-size: 101%;
     vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -542,7 +542,7 @@ b, strong {
     overflow: hidden;
     font-size: 12vh;
     text-align: center;
-    color: #fff;
+    color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -551,7 +551,7 @@ b, strong {
     text-transform: uppercase;
 }
 
-.glass:after {
+/* .glass:after {
     content: "";
     height: 100%;
     width: 100%;
@@ -562,7 +562,7 @@ b, strong {
     z-index: -1;
     background-color: #000;
     opacity: 0.4;
-}
+} */
 
 .section-home img {
     position: absolute;
