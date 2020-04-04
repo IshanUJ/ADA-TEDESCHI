@@ -66,7 +66,7 @@ if (isset($_POST['submit_about'])) {
         echo '
         <script type="text/javascript">
         alert("Please upload an image."); 
-        window.location.href="index.php";
+        window.location.href="admin.php";
   </script>';
         $uploadOk = 0;
     }
@@ -81,11 +81,15 @@ if (isset($_POST['submit_about'])) {
             WHERE id=1");
             echo '
 			<script type="text/javascript">
-				  alert("Event has been updated successfully..!"); 
-				  window.location.href="index.php";
+				  alert("CV Deatails updated successfully..!"); 
+				  window.location.href="admin.php";
 			</script>';
         } else {
-            echo "Sorry, there was an error uploading your file.";
+            echo '
+            <script type="text/javascript">
+				  alert("Sorry, there was an error uploading your file."); 
+				  window.location.href="admin.php";
+			</script>';
         }
     }
 
